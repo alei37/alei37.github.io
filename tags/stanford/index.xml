@@ -1,0 +1,47 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Stanford - 标签 - alei's blog</title><link>https://alei37.github.io/tags/stanford/</link><description>Stanford - 标签 - alei's blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>2114591501@qq.com (alei)</managingEditor><webMaster>2114591501@qq.com (alei)</webMaster><lastBuildDate>Mon, 20 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://alei37.github.io/tags/stanford/" rel="self" type="application/rss+xml"/><item><title>Chung et al. 2026 · ML 地震目录性能的空间评估</title><link>https://alei37.github.io/posts/seismology/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E4%BD%BF%E7%94%A8ai%E6%8B%BE%E5%8F%96%E9%9C%87%E7%9B%B8%E7%9A%84ml-%E5%9C%B0%E9%9C%87%E7%9B%AE%E5%BD%95%E6%80%A7%E8%83%BD%E7%9A%84%E7%A9%BA%E9%97%B4%E8%AF%84%E4%BC%B0/2026-07-20_arxiv_chung_mlccatalog_%E7%B2%BE%E8%AF%BB/</link><pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate><author>2114591501@qq.com (alei)</author><guid>https://alei37.github.io/posts/seismology/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E4%BD%BF%E7%94%A8ai%E6%8B%BE%E5%8F%96%E9%9C%87%E7%9B%B8%E7%9A%84ml-%E5%9C%B0%E9%9C%87%E7%9B%AE%E5%BD%95%E6%80%A7%E8%83%BD%E7%9A%84%E7%A9%BA%E9%97%B4%E8%AF%84%E4%BC%B0/2026-07-20_arxiv_chung_mlccatalog_%E7%B2%BE%E8%AF%BB/</guid><description><![CDATA[<h1 id="chung-et-al-2026--ml-地震目录性能的空间评估">Chung et al. 2026 · ML 地震目录性能的空间评估</h1>
+<p>#文献精读 #地震学 #地震目录构建 #机器学习 #PhaseNet #概率完备震级 #PMC #逻辑回归 #深度学习 #评估框架 #CentralItaly #arXiv #Chung2026 #Stanford #INGV</p>
+<h2 id="1-基本信息">1. 基本信息</h2>
+<table>
+	<thead>
+			<tr>
+					<th>字段</th>
+					<th>内容</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>题目</td>
+					<td><strong>Variability in Performance of a Machine-Learning Seismicity Catalog: Central Italy, 2016–2017</strong></td>
+			</tr>
+			<tr>
+					<td>作者</td>
+					<td>Jaehong Chung, Yifan Yu, Lauro Chiaraluce, Maddalena Michele, Gregory C. Beroza</td>
+			</tr>
+			<tr>
+					<td>单位</td>
+					<td>Stanford Geophysics（Chung/Yu/Beroza）+ INGV（Chiaraluce/Michele）</td>
+			</tr>
+			<tr>
+					<td>期刊/状态</td>
+					<td>arXiv:2602.09792，提交于 2026-02-10（physics.geo-ph）</td>
+			</tr>
+			<tr>
+					<td>DOI</td>
+					<td><a href="https://doi.org/10.48550/arXiv.2602.09792" target="_blank" rel="noopener noreffer ">10.48550/arXiv.2602.09792</a></td>
+			</tr>
+			<tr>
+					<td>PDF</td>
+					<td><a href="https://arxiv.org/pdf/2602.09792" target="_blank" rel="noopener noreffer ">arXiv:2602.09792</a></td>
+			</tr>
+			<tr>
+					<td>数据集</td>
+					<td>2016–2017 Central Italy 序列（两个并行目录：常规 vs ML）</td>
+			</tr>
+			<tr>
+					<td>资助</td>
+					<td>DOE Basic Energy Sciences (DE-SC0026319)</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="2-一句话总结">2. 一句话总结</h2>
+<p><strong>用基于逻辑回归的&quot;概率完备震级 (PMC) 框架&quot;把台站级检测能力聚合成空间连续的 $M_c(\mathbf{x})$ 场，证明 ML 目录 (PhaseNet) 把 Central Italy 的中位 $M_c$ 从 1.6 拉到 0.5（P 波）/ 1.7 拉到 0.5（S 波），但台站间检测能力的变异性也比常规目录更大——这是该领域第一份给出定量空间对比的工作，给&quot;ML 目录更可靠&quot;这件事画出了清晰的边界。</strong></p>]]></description></item></channel></rss>

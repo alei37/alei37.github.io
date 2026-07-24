@@ -1,0 +1,119 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>alei's blog</title><link>https://alei37.github.io/</link><description>This is my cool site</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>2114591501@qq.com (alei)</managingEditor><webMaster>2114591501@qq.com (alei)</webMaster><lastBuildDate>Mon, 20 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://alei37.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Chung et al. 2026 · ML 地震目录性能的空间评估</title><link>https://alei37.github.io/posts/seismology/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E4%BD%BF%E7%94%A8ai%E6%8B%BE%E5%8F%96%E9%9C%87%E7%9B%B8%E7%9A%84ml-%E5%9C%B0%E9%9C%87%E7%9B%AE%E5%BD%95%E6%80%A7%E8%83%BD%E7%9A%84%E7%A9%BA%E9%97%B4%E8%AF%84%E4%BC%B0/2026-07-20_arxiv_chung_mlccatalog_%E7%B2%BE%E8%AF%BB/</link><pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate><author>2114591501@qq.com (alei)</author><guid>https://alei37.github.io/posts/seismology/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/%E4%BD%BF%E7%94%A8ai%E6%8B%BE%E5%8F%96%E9%9C%87%E7%9B%B8%E7%9A%84ml-%E5%9C%B0%E9%9C%87%E7%9B%AE%E5%BD%95%E6%80%A7%E8%83%BD%E7%9A%84%E7%A9%BA%E9%97%B4%E8%AF%84%E4%BC%B0/2026-07-20_arxiv_chung_mlccatalog_%E7%B2%BE%E8%AF%BB/</guid><description><![CDATA[<h1 id="chung-et-al-2026--ml-地震目录性能的空间评估">Chung et al. 2026 · ML 地震目录性能的空间评估</h1>
+<p>#文献精读 #地震学 #地震目录构建 #机器学习 #PhaseNet #概率完备震级 #PMC #逻辑回归 #深度学习 #评估框架 #CentralItaly #arXiv #Chung2026 #Stanford #INGV</p>
+<h2 id="1-基本信息">1. 基本信息</h2>
+<table>
+	<thead>
+			<tr>
+					<th>字段</th>
+					<th>内容</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>题目</td>
+					<td><strong>Variability in Performance of a Machine-Learning Seismicity Catalog: Central Italy, 2016–2017</strong></td>
+			</tr>
+			<tr>
+					<td>作者</td>
+					<td>Jaehong Chung, Yifan Yu, Lauro Chiaraluce, Maddalena Michele, Gregory C. Beroza</td>
+			</tr>
+			<tr>
+					<td>单位</td>
+					<td>Stanford Geophysics（Chung/Yu/Beroza）+ INGV（Chiaraluce/Michele）</td>
+			</tr>
+			<tr>
+					<td>期刊/状态</td>
+					<td>arXiv:2602.09792，提交于 2026-02-10（physics.geo-ph）</td>
+			</tr>
+			<tr>
+					<td>DOI</td>
+					<td><a href="https://doi.org/10.48550/arXiv.2602.09792" target="_blank" rel="noopener noreffer ">10.48550/arXiv.2602.09792</a></td>
+			</tr>
+			<tr>
+					<td>PDF</td>
+					<td><a href="https://arxiv.org/pdf/2602.09792" target="_blank" rel="noopener noreffer ">arXiv:2602.09792</a></td>
+			</tr>
+			<tr>
+					<td>数据集</td>
+					<td>2016–2017 Central Italy 序列（两个并行目录：常规 vs ML）</td>
+			</tr>
+			<tr>
+					<td>资助</td>
+					<td>DOE Basic Energy Sciences (DE-SC0026319)</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="2-一句话总结">2. 一句话总结</h2>
+<p><strong>用基于逻辑回归的&quot;概率完备震级 (PMC) 框架&quot;把台站级检测能力聚合成空间连续的 $M_c(\mathbf{x})$ 场，证明 ML 目录 (PhaseNet) 把 Central Italy 的中位 $M_c$ 从 1.6 拉到 0.5（P 波）/ 1.7 拉到 0.5（S 波），但台站间检测能力的变异性也比常规目录更大——这是该领域第一份给出定量空间对比的工作，给&quot;ML 目录更可靠&quot;这件事画出了清晰的边界。</strong></p>]]></description></item><item><title>VORA：基于 Voronoi 镶嵌与发震时刻估计的快速地震震相关联方法</title><link>https://alei37.github.io/posts/seismology/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/vora%E5%9F%BA%E4%BA%8E-voronoi-%E9%95%B6%E5%B5%8C%E4%B8%8E%E5%8F%91%E9%9C%87%E6%97%B6%E5%88%BB%E4%BC%B0%E8%AE%A1%E7%9A%84%E5%BF%AB%E9%80%9F%E5%9C%B0%E9%9C%87%E9%9C%87%E7%9B%B8%E5%85%B3%E8%81%94%E6%96%B9%E6%B3%95/2026-07-17_arxiv_song_vora_%E7%B2%BE%E8%AF%BB/</link><pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate><author>2114591501@qq.com (alei)</author><guid>https://alei37.github.io/posts/seismology/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/vora%E5%9F%BA%E4%BA%8E-voronoi-%E9%95%B6%E5%B5%8C%E4%B8%8E%E5%8F%91%E9%9C%87%E6%97%B6%E5%88%BB%E4%BC%B0%E8%AE%A1%E7%9A%84%E5%BF%AB%E9%80%9F%E5%9C%B0%E9%9C%87%E9%9C%87%E7%9B%B8%E5%85%B3%E8%81%94%E6%96%B9%E6%B3%95/2026-07-17_arxiv_song_vora_%E7%B2%BE%E8%AF%BB/</guid><description><![CDATA[<h1 id="vora基于-voronoi-镶嵌与发震时刻估计的快速地震震相关联方法">VORA：基于 Voronoi 镶嵌与发震时刻估计的快速地震震相关联方法</h1>
+<p>#文献精读 #地震学 #地震目录构建 #相位关联 #Voronoi #深度学习 #无监督聚类 #arXiv #Song2026</p>
+<h2 id="1-基本信息">1. 基本信息</h2>
+<ul>
+<li><strong>题目</strong>：VORA: Rapid Association of Earthquake Phases from Local to Global</li>
+<li><strong>作者</strong>：Junhao Song, Weiqiang Zhu, Haoyu Wang, Utpal Kumar, Taka&rsquo;aki Taira, Richard M. Allen</li>
+<li><strong>单位</strong>：Department of Earth &amp; Planetary Science, University of California, Berkeley；Berkeley Seismology Laboratory</li>
+<li><strong>期刊</strong>：<em>Journal of Geophysical Research: Solid Earth</em>（JGR-Solid Earth，投稿中；arXiv 预印本）</li>
+<li><strong>DOI</strong>：arXiv:2607.10450（DOI: 10.48550/arXiv.2607.10450）</li>
+<li><strong>发表日期</strong>：2026-07-11（arXiv 预印本）</li>
+<li><strong>文章类型</strong>：方法论文（method paper），开源代码将经审稿后公开</li>
+<li><strong>通讯作者</strong>：Junhao Song, <a href="mailto:sjh2019@berkeley.edu" rel="">sjh2019@berkeley.edu</a></li>
+<li><strong>许可</strong>：CC BY-NC-SA 4.0</li>
+</ul>
+<h2 id="2-一句话总结">2. 一句话总结</h2>
+<p>VORA 是一种<strong>无需训练、面向任意台网几何的地震相位关联方法</strong>，把每个台站由 P/S 到时反推出的&quot;假想发震时刻&quot;在 Voronoi 邻域内做时空聚类，从而在局部密集台阵到全球 4461 个台站的尺度上实现秒级、快速且高召回的自动目录构建。</p>]]></description></item><item><title>Hello, Hugo!</title><link>https://alei37.github.io/posts/computer/hello-world/</link><pubDate>Fri, 03 Jul 2026 11:55:00 +0800</pubDate><author>2114591501@qq.com (alei)</author><guid>https://alei37.github.io/posts/computer/hello-world/</guid><description><![CDATA[<h2 id="前言">前言</h2>
+<p>这是博客的第一篇文章！🎉</p>
+<p>用来测试一下 Hugo + LoveIt 主题的基本功能。</p>
+<h2 id="代码高亮测试">代码高亮测试</h2>
+<p>Python 代码块：</p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-python">
+        <span class="code-title"><i class="arrow fas fa-angle-right" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h" aria-hidden="true"></i></span>
+        <span class="copy" title="复制到剪贴板"><i class="far fa-copy" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">hello</span><span class="p">(</span><span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="sa">f</span><span class="s2">&#34;Hello, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">!&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">hello</span><span class="p">(</span><span class="s2">&#34;alei&#34;</span><span class="p">))</span></span></span></code></pre></div></div>
+<p>Bash 命令：</p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-bash">
+        <span class="code-title"><i class="arrow fas fa-angle-right" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h" aria-hidden="true"></i></span>
+        <span class="copy" title="复制到剪贴板"><i class="far fa-copy" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo server -D</span></span></code></pre></div></div>
+<h2 id="公式测试">公式测试</h2>
+<p>双击公式即可复制
+行内公式：爱因斯坦场方程 $G_{\mu\nu} = 8\pi G T_{\mu\nu}$。</p>
+<p>块级公式：</p>
+<p>$$
+\frac{\partial u}{\partial t} = \nu \nabla^2 u
+$$</p>
+<h2 id="表格测试">表格测试</h2>
+<table>
+	<thead>
+			<tr>
+					<th>列1</th>
+					<th>列2</th>
+					<th>列3</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>A</td>
+					<td>B</td>
+					<td>C</td>
+			</tr>
+			<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="任务列表">任务列表</h2>
+<ul>
+<li><i class="far fa-check-square" aria-hidden="true"></i> 搭建 Hugo 博客</li>
+<li><i class="far fa-check-square" aria-hidden="true"></i> 配置 GitHub Actions 自动部署</li>
+<li><i class="far fa-check-square" aria-hidden="true"></i> 启用 GitHub Pages</li>
+<li><i class="far fa-square" aria-hidden="true"></i> 写更多文章</li>
+<li><i class="far fa-square" aria-hidden="true"></i> 配置 Giscus 评论</li>
+</ul>]]></description></item></channel></rss>
